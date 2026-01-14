@@ -1,0 +1,10 @@
+
+# Added for project scripts
+fastapi==0.115.12
+invoke
+matplotlib
+numpy
+scikit-learn
+torch==2.6.0
+typer==0.15.2
+uvicorn==0.34.2

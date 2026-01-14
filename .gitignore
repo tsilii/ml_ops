@@ -1,0 +1,53 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# ---- Environments ----
+.venv/
+venv/
+env/
+.conda/
+.mamba/
+.uv/
+.python-version
+
+# ---- Jupyter / IDE ----
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+
+# ---- ML artifacts (DO NOT COMMIT) ----
+# Raw + processed data
+data/
+**/data/raw/
+**/data/processed/
+
+# Model checkpoints
+models/
+**/models/
+
+# Logs / outputs
+runs/
+wandb/
+mlruns/
+logs/
+**/*.log
+
+# Large tensors / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npz
+
+# Reports (optional: keep figures if you want)
+# If you want to keep figures, comment the next line out.
+# reports/
